@@ -23,6 +23,7 @@ class UserAdminAPI(APIView):
     def post(self, request):
         """
         Import User
+        批量导入用户
         """
         data = request.data["users"]
 
@@ -48,6 +49,7 @@ class UserAdminAPI(APIView):
     def put(self, request):
         """
         Edit user api
+        修改用户信息
         """
         data = request.data
         try:
@@ -103,6 +105,7 @@ class UserAdminAPI(APIView):
     def get(self, request):
         """
         User list api / Get user by id
+        获取用户列表
         """
         user_id = request.GET.get("id")
         if user_id:
