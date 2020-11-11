@@ -14,4 +14,8 @@ urlpatterns = [
     url(r"^api/", include("submission.urls.oj")),
     url(r"^api/admin/", include("submission.urls.admin")),
     url(r"^api/admin/", include("utils.urls")),
+    url(r"^api/", include("groups.urls.oj")),
+    url(r"^api/admin/", include("groups.urls.admin")),
+    url(r"^api/", include("talk.urls.oj")),
+    url(r"^api/admin/", include("talk.urls.admin")),
 ]

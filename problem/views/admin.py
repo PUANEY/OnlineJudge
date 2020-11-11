@@ -231,7 +231,7 @@ class ProblemAPI(ProblemBase):
         user = request.user
         if problem_id:
             try:
-                problem = Problem.objects.get(id=problem_id)
+                problem = Problem.objects.get(_id=problem_id)
                 ensure_created_by(problem, request.user)
                 return self.success(ProblemAdminSerializer(problem).data)
             except Problem.DoesNotExist:

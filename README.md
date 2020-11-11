@@ -1,11 +1,10 @@
 # OnlineJudge 2.0
 
 [![Python](https://img.shields.io/badge/python-3.6.2-blue.svg?style=flat-square)](https://www.python.org/downloads/release/python-362/)
-[![Django](https://img.shields.io/badge/django-1.11.4-blue.svg?style=flat-square)](https://www.djangoproject.com/)
+[![Django](https://img.shields.io/badge/django-2.1.7-blue.svg?style=flat-square)](https://www.djangoproject.com/)
 [![Django Rest Framework](https://img.shields.io/badge/django_rest_framework-3.4.0-blue.svg?style=flat-square)](http://www.django-rest-framework.org/)
-[![Build Status](https://travis-ci.org/QingdaoU/OnlineJudge.svg?branch=master)](https://travis-ci.org/QingdaoU/OnlineJudge)
 
-> #### An onlinejudge system based on Python and Vue. [Demo](https://qduoj.com)
+> #### An onlinejudge system based on Python and Vue. [Demo]()
 
 [中文文档](README-CN.md)
 
@@ -17,20 +16,20 @@
 + Amazing charting and visualization
 + Template-problem support
 + More reasonable permission control
-+ Multi-language support: `C`, `C++`, `Java`, `Python2`, `Python3`
++ Multi-language support: `C`, `C++`, `Java`, `Python2`, `Python3`, `Golang`
 + Markdown & MathJax support
 + Contest participants IP limit(CIDR)
 
 Main modules are available below:
 
-+ Backend(Django): [https://github.com/QingdaoU/OnlineJudge](https://github.com/QingdaoU/OnlineJudge)
-+ Frontend(Vue): [https://github.com/QingdaoU/OnlineJudgeFE](https://github.com/QingdaoU/OnlineJudgeFE)
++ Backend(Django): [https://github.com/PUANEY/OnlineJudge](https://github.com/PUANEY/OnlineJudge)
++ Frontend(Vue): [https://github.com/PUANEY/OnlineJudgeFE](https://github.com/PUANEY/OnlineJudgeFE)
 + Judger Sandbox(Seccomp): [https://github.com/QingdaoU/Judger](https://github.com/QingdaoU/Judger)
 + JudgeServer(A wrapper for Judger): [https://github.com/QingdaoU/JudgeServer](https://github.com/QingdaoU/JudgeServer)
 
 ## Installation
 
-Follow me:  [https://github.com/QingdaoU/OnlineJudgeDeploy/tree/2.0](https://github.com/QingdaoU/OnlineJudgeDeploy/tree/2.0)
+Follow me:  [https://github.com/PUANEY/OnlineJudgeDeploy](https://github.com/PUANEY/OnlineJudgeDeploy)
 
 ## Documents
 
